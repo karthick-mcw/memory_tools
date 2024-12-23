@@ -1,0 +1,31 @@
+Compiling the C++ code...
+Compilation completed.\n
+Running AddressSanitizer...
+Matrix C (Result of A x B):
+6 6 6 
+6 6 6 
+6 6 6 
+AddressSanitizer completed.
+\n
+Running Valgrind Memcheck...
+Matrix C (Result of A x B):
+6 6 6 
+6 6 6 
+6 6 6 
+Valgrind Memcheck completed.
+\n
+Running Valgrind Massif...
+Matrix C (Result of A x B):
+6 6 6 
+6 6 6 
+6 6 6 
+Valgrind Massif completed.
+\n
+Running Valgrind DHAT...
+Matrix C (Result of A x B):
+6 6 6 
+6 6 6 
+6 6 6 
+Valgrind DHAT completed.
+\n
+All tests completed. All logs are saved in final_report.txt

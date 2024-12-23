@@ -1,0 +1,39 @@
+{"dhatFileVersion":1
+,"cmd":"./memory"
+,"pid":788442
+,"mi":2400816,"ei":2426223
+,"aps":
+ [{"tb":72704,"tbk":1,"tli":138879
+  ,"mb":72704,"mbk":1
+  ,"gb":72704,"gbk":1
+  ,"fb":0,"fbk":0
+  ,"rb":0,"wb":16
+  ,"fs":[1,2,3,4,5,6]
+  }
+ ,{"tb":4096,"tbk":1,"tli":23379
+  ,"mb":4096,"mbk":1
+  ,"gb":4096,"gbk":1
+  ,"fb":0,"fbk":0
+  ,"rb":49,"wb":53
+  ,"fs":[1,7,8,9,10,11,12,13,14,15]
+  }
+ ]
+,"ftbl":
+ ["[root]"
+ ,"0x48397B3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_dhat-amd64-linux.so)"
+ ,"0x4900A69: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)"
+ ,"0x4011B99: call_init.part.0 (dl-init.c:72)"
+ ,"0x4011CA0: call_init (dl-init.c:30)"
+ ,"0x4011CA0: _dl_init (dl-init.c:119)"
+ ,"0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)"
+ ,"0x4ABDD03: _IO_file_doallocate (filedoalloc.c:101)"
+ ,"0x4ACDECF: _IO_doallocbuf (genops.c:347)"
+ ,"0x4ACCF2F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)"
+ ,"0x4ACB6B4: _IO_new_file_xsputn (fileops.c:1244)"
+ ,"0x4ACB6B4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)"
+ ,"0x4ABF3C0: fwrite (iofwrite.c:39)"
+ ,"0x498D853: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)"
+ ,"0x498DC0B: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)"
+ ,"0x1093EB: main (memory.cpp:37)"
+ ]
+}
